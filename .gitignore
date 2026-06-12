@@ -1,0 +1,14 @@
+# Datasets (tens of MB — regenerate with generate.py / cleanup.py / merge.py)
+*.jsonl
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Model artifacts
+*.gguf
+*.safetensors
+
+# Secrets
+.env
